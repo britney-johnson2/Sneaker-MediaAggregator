@@ -12,6 +12,7 @@
         <script src = "./CSS/bootstrap.bundle.min.js"> </script>
 
 
+
     </head>
 
     <body>
@@ -29,81 +30,165 @@
 
 
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-          <div class="container">
-            <a class="navbar-brand" href="#">Start Bootstrap</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                      </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
+        <!-- Navigation Bar-->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">SneakerCom</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                          <span class="sr-only">(current)</span>
+                        </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
 
-        <header>
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <!-- Slide One - Set the background image for this slide in the line below -->
-              <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="display-4">First Slide</h3>
-                  <p class="lead">This is a description for the first slide.</p>
+          <header>
+            <!-- Carousel slider and indicators at the bottom -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3 class="display-4">First Slide</h3>
+                    <p class="lead">This is a description for the first slide.</p>
+                  </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3 class="display-4">Second Slide</h3>
+                    <p class="lead">This is a description for the second slide.</p>
+                  </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3 class="display-4">Third Slide</h3>
+                    <p class="lead">This is a description for the third slide.</p>
+                  </div>
                 </div>
               </div>
-              <!-- Slide Two - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="display-4">Second Slide</h3>
-                  <p class="lead">This is a description for the second slide.</p>
-                </div>
-              </div>
-              <!-- Slide Three - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="display-4">Third Slide</h3>
-                  <p class="lead">This is a description for the third slide.</p>
-                </div>
-              </div>
+
+              <!-- the slider links at the bottom of the image to select an image to see -->
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-          </div>
-        </header>
+          </header>
 
         <!-- Page Content -->
-        <section class="py-5">
-          <div class="container">
-            <h1 class="font-weight-light">Half Page Image Slider</h1>
-            <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p>
-          </div>
+          <section class="py-5">
+            <div class="container">
+              <!-- <h1 class="font-weight-light">Half Page Image Slider</h1> -->
+              <p class="statement" style="text-align:center" > It's more than just a shoe. Footwear can change lives. Kicks can impact communities. </p>
+              <!-- <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p> -->
+            </div>
+          </section>
+
+        <!-- Thumbnail content -->
+        <section class="py-6">
+        <!-- <div class="container2"> -->
+            <!-- Page Content -->
+              <div class="container2">
+
+              <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0"> See the conversation </h1>
+
+              <hr class="mt-2 mb-5">
+
+              <div class="row text-center text-lg-left">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="first">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="second">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="third">
+                      </a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+                      </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                      </a>
+                </div> -->
+              </div>
+
+              </div>
+              <!-- /.container -->
+
+          <!-- </div> -->
         </section>
 
     </body>

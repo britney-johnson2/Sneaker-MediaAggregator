@@ -9,3 +9,15 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
+/* applies sizing for all thumbnails  */
+.container2 {
+
+  height: 100%;
+  width: 75%;
+  text-align:center;
+  display:inline-block;
+  /* adisplay:inline; */
+  float:none;
+
+}
