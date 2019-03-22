@@ -1,0 +1,88 @@
+/* Source: https://startbootstrap.com/snippets/half-slider/ */
+
+  .carousel-item {
+    height: 40vh;
+    min-height: 35px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.py-5{
+  /* border-style: inset; */
+}
+
+.thumbnailDiv{
+  text-lg-left
+  font-weight: lighter;
+   text-center  mt-4 mb-0
+}
+
+
+/* applies sizing for all thumbnails  */
+.container2 {
+
+  height: 100%;
+  width: 75%;
+  text-align:center;
+  display:inline-block;
+  /* adisplay:inline; */
+  float:none;
+
+}
+
+/* styling for  */
+.disclaimer p{
+  font-style: italic;
+}
+
+.disclaimer{
+  text-align: center;
+  vertical-align: bottom;
+
+}
+
+/* splitting the screen in half */
+    .split {
+      height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+
+    /* Control the left side */
+    .left {
+      left: 0;
+      /* background-color: #111; */
+    }
+
+    /* Control the right side */
+    .right {
+      right: 0;
+      /* background-color: red; */
+    }
+
+    /* If you want the content centered horizontally and vertically */
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    /* Style the image inside the centered container, if needed */
+    .centered img {
+      width: 150px;
+      border-radius: 50%;
+    }
+
+.statement{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 28px;
+}
